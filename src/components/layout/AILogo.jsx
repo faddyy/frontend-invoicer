@@ -4,7 +4,10 @@
  */
 const AILogo = () => {
   return (
-    <div className="relative h-12 w-12 flex items-center justify-center" aria-label="Invoicer">
+    <div
+      className="relative h-12 w-12 flex items-center justify-center"
+      aria-label="Invoicer"
+    >
       <svg
         width="42"
         height="42"
@@ -26,12 +29,40 @@ const AILogo = () => {
           fill="url(#inv-doc)"
         />
         {/* Fold */}
-        <path d="M13.3 2.9V6.1a1 1 0 0 0 1 1h3.2Z" fill="#ffffff" fillOpacity="0.4" />
+        <path
+          d="M13.3 2.9V6.1a1 1 0 0 0 1 1h3.2Z"
+          fill="#ffffff"
+          fillOpacity="0.4"
+        />
 
         {/* Invoice rows */}
-        <rect x="7.7" y="10" width="7.4" height="1.5" rx="0.75" fill="#ffffff" fillOpacity="0.95" />
-        <rect x="7.7" y="12.9" width="6.4" height="1.5" rx="0.75" fill="#ffffff" fillOpacity="0.7" />
-        <rect x="7.7" y="15.8" width="4.2" height="1.5" rx="0.75" fill="#ffffff" fillOpacity="0.7" />
+        <rect
+          x="7.7"
+          y="10"
+          width="7.4"
+          height="1.5"
+          rx="0.75"
+          fill="#ffffff"
+          fillOpacity="0.95"
+        />
+        <rect
+          x="7.7"
+          y="12.9"
+          width="6.4"
+          height="1.5"
+          rx="0.75"
+          fill="#ffffff"
+          fillOpacity="0.7"
+        />
+        <rect
+          x="7.7"
+          y="15.8"
+          width="4.2"
+          height="1.5"
+          rx="0.75"
+          fill="#ffffff"
+          fillOpacity="0.7"
+        />
 
         {/* "$" seal */}
         <circle cx="16.6" cy="16.7" r="3.5" fill="#ffffff" />
@@ -47,6 +78,7 @@ const AILogo = () => {
           $
         </text>
       </svg>
+      <p>Powered By FADY</p>
     </div>
   );
 };
