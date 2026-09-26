@@ -1,5 +1,5 @@
 export const en = {
-  appName: "Invoicer",
+  appName: "Invoicer BY Fady",
   loading: "Loading...",
   language: "Language",
   english: "English",
@@ -154,22 +154,30 @@ export const en = {
     aiRemDesc:
       "Generate friendly, firm, or final-notice reminder emails tuned to how overdue an invoice is.",
     aiNotesTitle: "Notes writer",
-    aiNotesDesc: "Draft polished service descriptions and payment terms in a single click.",
+    aiNotesDesc:
+      "Draft polished service descriptions and payment terms in a single click.",
     coreEyebrow: "Everything you need",
     coreTitle: "A complete billing workspace",
-    coreSub: "From first invoice to final payment — and every number in between.",
+    coreSub:
+      "From first invoice to final payment — and every number in between.",
     coreInvTitle: "Smart invoices",
-    coreInvDesc: "Line-item builder with auto totals, tax, discounts, and one-click PDF export.",
+    coreInvDesc:
+      "Line-item builder with auto totals, tax, discounts, and one-click PDF export.",
     coreCrmTitle: "Client CRM",
-    coreCrmDesc: "Every client's billing history, outstanding balance, and payment status in one view.",
+    coreCrmDesc:
+      "Every client's billing history, outstanding balance, and payment status in one view.",
     corePayTitle: "Payments & expenses",
-    corePayDesc: "Log payments against invoices and track business expenses — with a live ledger.",
+    corePayDesc:
+      "Log payments against invoices and track business expenses — with a live ledger.",
     coreAnTitle: "Revenue analytics",
-    coreAnDesc: "Revenue vs expenses, AR aging, top clients, and a real-time dashboard.",
+    coreAnDesc:
+      "Revenue vs expenses, AR aging, top clients, and a real-time dashboard.",
     coreCatTitle: "Reusable catalog",
-    coreCatDesc: "Save your common services and drop them into any invoice in one tap.",
+    coreCatDesc:
+      "Save your common services and drop them into any invoice in one tap.",
     coreSecTitle: "Secure by default",
-    coreSecDesc: "JWT auth, hashed passwords, and your data isolated per account on Neon.",
+    coreSecDesc:
+      "JWT auth, hashed passwords, and your data isolated per account on Neon.",
     ctaBadge: "Get paid faster",
     ctaTitle: "Send your first invoice in minutes.",
     ctaSub: "Free to start. No credit card required.",
@@ -257,11 +265,10 @@ export const en = {
     generate: "Generate",
     regenerate: "Regenerate",
     summaryFail: "Couldn't generate summary",
-    overdueHint:
-      "You have {n} overdue invoice totaling {amount}. ",
-    overdueHintPlural:
-      "You have {n} overdue invoices totaling {amount}. ",
-    generateHint: "Click generate for an AI-written summary and a follow-up suggestion.",
+    overdueHint: "You have {n} overdue invoice totaling {amount}. ",
+    overdueHintPlural: "You have {n} overdue invoices totaling {amount}. ",
+    generateHint:
+      "Click generate for an AI-written summary and a follow-up suggestion.",
     revenue: "Revenue",
     revenueSub: "Paid invoices over the last 6 months",
     noPaid: "No paid invoices yet",
@@ -425,7 +432,8 @@ export const en = {
     none: "No payments recorded",
     emptyDesc: "Record a payment against an invoice to build your ledger.",
     method: "Method",
-    deleteConfirm: "Remove this {amount} payment? The invoice may revert to unpaid.",
+    deleteConfirm:
+      "Remove this {amount} payment? The invoice may revert to unpaid.",
     modalTitle: "Record payment",
     invoice: "Invoice *",
     selectInvoice: "— Select an invoice —",
@@ -451,7 +459,8 @@ export const en = {
     desc: "Reusable products and services you can drop into any invoice.",
     add: "Add Item",
     none: "No items yet",
-    emptyDesc: "Save your common services and their rates to speed up invoicing.",
+    emptyDesc:
+      "Save your common services and their rates to speed up invoicing.",
     deleteConfirm: 'Delete "{name}"?',
     edit: "Edit item",
     addTitle: "Add item",
@@ -543,7 +552,8 @@ export const en = {
     dark: "Dark",
     lightHint: "Fresh, bright teal tones",
     darkHint: "Calm, low-glare night",
-    languageDesc: "English is the default. Switch anytime — Arabic uses a right-to-left layout.",
+    languageDesc:
+      "English is the default. Switch anytime — Arabic uses a right-to-left layout.",
     passwordTitle: "Password",
     passwordDesc:
       "Use at least 8 characters. Mix letters, numbers, and a symbol for a stronger password.",

@@ -78,7 +78,6 @@ const AILogo = () => {
           $
         </text>
       </svg>
-      <p>Powered By FADY</p>
     </div>
   );
 };
