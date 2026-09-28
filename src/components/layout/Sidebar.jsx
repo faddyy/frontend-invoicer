@@ -99,7 +99,7 @@ export function Sidebar() {
   return (
     <aside
       className={cn(
-        "group/sidebar hidden md:flex shrink-0 h-[calc(100vh-32px)] sticky top-4 ms-4",
+        "group/sidebar flex shrink-0 h-[calc(100vh-32px)] sticky top-4 ms-4",
         "flex-col items-center justify-between py-5 rounded-3xl",
         "bg-[var(--surface)] border border-[var(--border)] shadow-card overflow-hidden",
         "w-[88px] hover:w-[248px]",
