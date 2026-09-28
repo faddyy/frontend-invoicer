@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://backend-invoicer.vercel.app//api/:path*"
+      "destination": "https://backend-invoicer.vercel.app/api/:path*"
     },
     {
       "source": "/(.*)",
